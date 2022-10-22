@@ -21,3 +21,14 @@ Text analysis delivers qualitative results and text analytics delivers quantitat
 ## Why we need text pre-processing?
 Let's say you have a large amount of customer feedback, which is essentially unstructured.
 Now if you want to use machine learning model on it then you need to convert this unstructured data into structured format. Lowercase data, remove symbols, remove unusual text, etc.
+
+
+
+
+
+
+
+
+
+
+
