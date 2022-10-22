@@ -1,3 +1,27 @@
-# What is NLP ? 
+# What is Natural Language ? 
 
 The language that people usually speak to each other is called natural language.
+
+
+## What is NLP - Natural Language Processing ? 
+
+NLP is a field of artificial intelligence. Where human language or natural language is analyzed, meaningful information is extracted. 
+The information that will be useful is brought out in a smart way in NLP.
+
+
+## What is Text Analytics ? 
+
+Text Analytics is the process of deriving meaningful information from the natural language’s text like, specific person's information, company information etc.
+Text Analytics is Nothing but the preprocessing that is required before giving the data to the model.
+
+
+## Text Analysis Vs Text Analytics. 
+
+There's a slight difference between these two...
+Text analysis delivers qualitative results and text analytics delivers quantitative results. If a machine performs text analysis, it identifies important information within the text itself, but if it performs text analytics, it reveals patterns across thousands of texts, resulting in graphs, reports, tables etc.
+
+
+
+## Why we need text pre-processing?
+Let's say you have a large amount of customer feedback, which is essentially unstructured.
+Now if you want to use machine learning model on it then you need to convert this unstructured data into structured format. Lowercase data, remove symbols, remove unusual text, etc.
