@@ -1,0 +1,3 @@
+# What is NLP ? 
+
+The language that people usually speak to each other is called natural language.
