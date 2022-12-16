@@ -1,3 +1,15 @@
+The Default pipeline for 'clean' method: 
+
+fillna(s)
+lowercase(s) 
+remove_digits() 
+remove_punctuation() 
+remove_diacritics() Remove all accents from strings.
+remove_stopwords() 
+remove_whitespace() 
+
+
+
 Texthero has four useful modules that handle different functionalities.
 
 1. Preprocessing
