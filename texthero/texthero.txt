@@ -7,9 +7,10 @@ Texthero has four useful modules that handle different functionalities.
 
 Preprocessing: It has different methods to clean your text dataset such as lowercase(), remove_html_tags() and remove_urls().
 
-NLP: This module has a few NLP tasks such as named_entities, noun_chunks, and so on.
+NLP: This module has a few NLP tasks such as named_entities, noun_chunks, and so on. Used for keywords and keyphrases extraction, and named entity recognition.
 
 Representation: This module has different algorithms to map words into vectors such as TF-IDF,  GloVe, Principal Component Analysis(PCA), and term_frequency.
+Used for representation of text data into vectors. It is used to analyze vector space. It offers clustering algorithms like K-means, DBSCAN, Hierarchical, and Meanshift.
 
 map text data into vectors and do dimensionality reduction.
 Supported representation algorithms:
@@ -29,4 +30,6 @@ Supported dimensionality reduction algorithms:
 1. Non-negative matrix factorization (nmf)
 
 
-Visualization: The last module has three different methods to visualize the insights and statistics of a text-based Pandas DataFrame. It can plot a scatter plot and word cloud.
+Visualization: The last module has three different methods to visualize the insights and statistics of a text-based Pandas DataFrame. 
+It can plot a scatter plot and word cloud. 
+Used for vector space visualization and used for place localization on maps
