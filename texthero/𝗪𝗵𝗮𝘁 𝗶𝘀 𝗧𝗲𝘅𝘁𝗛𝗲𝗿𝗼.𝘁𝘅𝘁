@@ -10,10 +10,11 @@ Texthero has four useful modules that handle different functionalities.
 Under the Hood. 
 
 𝐍𝐋𝐏: This module has a few NLP tasks such as named_entities, noun_chunks, and so on. Used for keywords and keyphrases extraction, and named entity recognition.
+It is using Spacy under the hood.
 
 𝐑𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧: This module has different algorithms to map words into vectors such as TF-IDF,  GloVe, Principal Component Analysis(PCA), and term_frequency.
 Used for representation of text data into vectors. It is used to analyze vector space. 
-It offers clustering algorithms like K-means, DBSCAN, Hierarchical, and Meanshift.
+It offers clustering algorithms like K-means, DBSCAN, Hierarchical, and Meanshift. It is uses 'Scikit-learn' for TF-IDF and count.
 
 map text data into vectors and do dimensionality reduction.Supported representation algorithms:
 1. Term frequency (count)
@@ -31,7 +32,7 @@ Supported dimensionality reduction algorithms:
 
 
 𝐕𝐢𝐬𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧: The last module has three different methods to visualize the insights and statistics of a text-based Pandas DataFrame. 
-It can plot a scatter plot and word cloud. 
+It can plot a scatter plot and word cloud. Uses plotly and wordcloud under the hood.
 Used for vector space visualization and used for place localization on maps
 
 
