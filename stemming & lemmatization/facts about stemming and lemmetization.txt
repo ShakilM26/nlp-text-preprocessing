@@ -1,0 +1,171 @@
+Both in stemming and in lemmatization, we try to reduce a given word to its root word. The root word is called a stem in the stemming process, and it is called a lemma in the lemmatization process.
+
+Stemming and lemmatization are text normalization techniques used in NLP. Essentially, both the techniques break down the words into their root forms.
+
+Stemming এর ক্ষেত্রে যেটা দেখা যায় যে, শেষের অংশ বাদ দিয়ে আউটপুট দিয়ে দেয়। অনেক ক্ষেত্রে এমন ওয়ার্ড পাওয়া যায় যেটা ডিকশনারিতে নেই অর্থাৎ সেই ওয়ার্ড এর কোন শাব্দিক অর্থ নেই। কখনো দেখা যায় ভিন্ন ওয়ার্ড আউটপুট হিসেবে আসে যেটার অর্থ পুরোপুরি ভিন্ন। এর থেকে বুঝা যায় stemming algorithm এর ডিকশনারি সম্পর্কিত কোন তথ্য নেই। 
+
+কিন্তু অপরদিকে Lemmatization এর ডিকশনারি ওয়ার্ড সম্পর্কিত জ্ঞান রয়েছে। স্পষ্ট করে যদি বলা যায় তাহলে Lemmatization কোন ওয়ার্ড reduce করার আগে ডিকশনারি রেফার করে তার algorithm কে। 
+
+Stemming এর চাইতে Lemmatization এর ফলাফল অনেক বেশি অ্যাকুরেট। এখন NLP Application নিয়ে যদি কেউ কাজ 
+করে সেক্ষেত্রে Lemmatization হবে তার জন্য ইউসফুল। 
+
+তবে এক্ষেত্রে Time-Consuming এর ব্যাপার রয়েছে। যেহেতু Lemmatization অ্যাকুরেট ওয়ার্ড ডেলিভার করে কেননা 
+Lemmatization Algorithm পিউর root word ডেলিভার করে অনেকটা ডিকশনারি টাইপের কোন কিছুর উপর নির্ভর করে  সেক্ষেত্রে  stemming এর চাইতে তার আউটপুট স্বাভাবিকভাবেই দেরিতে আসবে। 
+stemming রুল বেসড আপ্রোচ আর Lemmatization ডিকশনারি বেসড আপ্রোচ 
+
+Lemmatization এর বহুল একটা ব্যবহার হল সার্চ ইঞ্জিনের জন্য ইনফরমেশন রিট্রিভ করা। সিস্টেম কে 
+অনুমতি দেয় ডকুমেন্ট ম্যাপ করা, রিলেভেন্ট রেজাল্ট শো করা এমনকি রিডারদের উপকারে আসবে এমন 
+টপিক প্রদর্শনের অনুমতিও দেয়। ইত্যাদি। 
+
+Some examples of lemmatization tools currently out in the market include:
+
+BioLemmatizer: Helps computers make sense of biomedical literature.
+Lemmatization API: Automatically obtains the root of any given word.
+Trinker/Textstem: Functions much like Lemmatization API.
+
+
+
+
+
+
+
+
+
+
+এখানে অবশ্য stemming এর দুটি ভিন্ন ভিন্ন ইরোর রয়েছে। 
+
+Over stemming: Over Stemming এর ক্ষেত্রে যেটা দেখা যায় যে, ভিন্ন ভিন্ন দুটি ওয়ার্ড এর root word একই আকারে আসে যা মূলত পুরো sentence/text কেই ঘোলাটে করে ফেলে। যেমন, university, universe ---> univers
+
+Under stemming: এটা এর উল্টো। অর্থাৎ একই জাতীয় দুটি ওয়ার্ড এর ভিন্ন ভিন্ন রুট ওয়ার্ড। 
+
+
+
+
+### NLP - These NLP libraries act as translators between machines (like Alexa, Siri, or Google Assistant) and humans so that the machines have the appropriate response. NLTK has a large, structured text known as a corpus thatt contains machine-readable text files in a directory produced for NLP tasks.
+
+
+
+
+# Normalization is an advanced step in cleaning to maintain uniformity. It brings all the words under on the roof by adding stemming and lemmatization. 
+
+
+# lemmatization performs normalization using vocabulary and morphological analysis of words. Lemmatization aims to remove inflectional endings only and to return the base or dictionary form of a word, which is known as the lemma. Lemmatization uses a dictionary, which makes it slower than stemming, however the results make much more sense than what you get from stemming. Lemmatization is built on WordNet's built-in morphy function, making it an intelligent operation for text analysis.
+
+
+# POS
+# In the English language, one word can have different grammatical contexts, and in these cases it's not a good practice to consider the two words redundant. POS aims to make them grammatically unique
+
+
+
+********************************************************
+Tokenization
+
+Tokenization is the process of breaking text into smaller pieces called tokens. These smaller pieces can be sentences, words, or sub-words.
+
+why tokenization useful ? 
+
+Tokenization মেশিনকে টেক্সট রিড করতে সাহায্য করে। 
+ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং এর ক্ষেত্রে  traditional and deep learning methods দুটাই  ব্যপকভাবে
+নির্ভর করে Tokenization এর উপর। ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং অ্যাপ্লিকেশনের ক্ষেত্রে Tokenization 
+কে প্রি-প্রসেসিং স্টেপ হিসেবে ব্যবহার করা হয় প্রায়ই।
+deep learning and traditional methods এর ক্ষেত্রে Tokenization কে ব্যবহার করা হয় 
+ফিচার ইঞ্জিনিয়ারিং এর জন্য। যেমন BERT নিউরাল নেটওয়ার্ক আর্কিটেকচারে কোন ইনপুট টেক্সটকে Fed করানোর আগে 
+wordpiece subword tokenization ব্যবহার করে একে আগে প্রসেসড করা হয়। 
+
+Word tokenizers are one class of tokenizers that split a text into words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
