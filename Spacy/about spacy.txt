@@ -2,22 +2,22 @@
 information extraction বা natural language understanding এর জন্য SpaCy ব্যবহার করা যায়। টেক্সট প্রি- প্রসেস করা যায় ডিপ লার্নিং এর জন্য। 
 
 **************************************************************** 
-spaCy has three pipelines for English
+𝐒𝐩𝐚𝐂𝐲 𝐡𝐚𝐬 𝐭𝐡𝐫𝐞𝐞 𝐩𝐢𝐩𝐞𝐥𝐢𝐧𝐞𝐬 𝐟𝐨𝐫 𝐄𝐧𝐠𝐥𝐢𝐬𝐡
 
-en_core_web_sm  # 12 MB
-en_core_web_md  # 31 MB
-en_core_web_lg  # 382 MB
+𝐞𝐧_𝐜𝐨𝐫𝐞_𝐰𝐞𝐛_𝐬𝐦  # 𝟏𝟐 𝐌𝐁
+𝐞𝐧_𝐜𝐨𝐫𝐞_𝐰𝐞𝐛_𝐦𝐝  # 𝟑𝟏 𝐌𝐁
+𝐞𝐧_𝐜𝐨𝐫𝐞_𝐰𝐞𝐛_𝐥𝐠  # 𝟑𝟖𝟐 𝐌𝐁
 **************************************************************** 
 
 𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨 𝙤𝙛 𝙎𝙥𝙖𝘾y:
 
-* Tokenization - Segmenting text into words, punctuations marks etc.
-* Part-of-speech (POS) Tagging - Assigning word types to tokens, like verb or noun.
-* Dependency Parsing - Assigning syntactic dependency labels, describing the relations between individual tokens, like subject or object.
-* Lemmatization -	Assigning the base forms of words. For example, the lemma of “was” is “be”, and the lemma of “rats” is “rat”.
-* Sentence Boundary Detection (SBD) -	Finding and segmenting individual sentences.
-* Named Entity Recognition (NER) -	Labelling named “real-world” objects, like persons, companies or locations.
-* Entity Linking (EL)	- Disambiguating textual entities to unique identifiers in a knowledge base.
+* 𝐓𝐨𝐤𝐞𝐧𝐢𝐳𝐚𝐭𝐢𝐨𝐧 - Segmenting text into words, punctuations marks etc.
+* 𝐏𝐚𝐫𝐭-𝐨𝐟-𝐬𝐩𝐞𝐞𝐜𝐡 (𝐏𝐎𝐒) 𝐓𝐚𝐠𝐠𝐢𝐧𝐠 - Assigning word types to tokens, like verb or noun.
+* 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐲 𝐏𝐚𝐫𝐬𝐢𝐧𝐠 - Assigning syntactic dependency labels, describing the relations between individual tokens, like subject or object.
+* 𝐋𝐞𝐦𝐦𝐚𝐭𝐢𝐳𝐚𝐭𝐢𝐨𝐧 -	Assigning the base forms of words. For example, the lemma of “was” is “be”, and the lemma of “rats” is “rat”.
+* 𝐒𝐞𝐧𝐭𝐞𝐧𝐜𝐞 𝐁𝐨𝐮𝐧𝐝𝐚𝐫𝐲 𝐃𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 (𝐒𝐁𝐃) -	Finding and segmenting individual sentences.
+* 𝐍𝐚𝐦𝐞𝐝 𝐄𝐧𝐭𝐢𝐭𝐲 𝐑𝐞𝐜𝐨𝐠𝐧𝐢𝐭𝐢𝐨𝐧 (𝐍𝐄𝐑) -	Labelling named “real-world” objects, like persons, companies or locations.
+* 𝐄𝐧𝐭𝐢𝐭𝐲 𝐋𝐢𝐧𝐤𝐢𝐧𝐠 (𝐄𝐋)	- Disambiguating textual entities to unique identifiers in a knowledge base.
 * Similarity	-  Comparing words, text spans and documents and how similar they are to each other.
 * Text Classification	- Assigning categories or labels to a whole document, or parts of a document.
 * Rule-based Matching	- Finding sequences of tokens based on their texts and linguistic annotations, similar to regular expressions.
